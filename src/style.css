@@ -10,3 +10,20 @@
   --cor-botoes: #FF8B55;
   --cor-botoes-hover: #FF8B55af;
 }
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.animated-navbar {
+  background: linear-gradient(90deg, var(--cor-primaria), var(--cor-segundaria), #F4B6E1, #3A92B3);
+  background-size: 200% 200%;
+  animation: gradient-move 8s ease-in-out infinite;
+}
