@@ -1,10 +1,12 @@
 @import "tailwindcss";
 
+/* Troquei as cores baseados em celeste, so porque eu zerei ele recentemente, pedi pro chat as cores predominantes e mandei bala :p */
+/* Qualquer coisa pode trocar se quiser */
 :root {
-    --cor-primaria: #3F4EA6;
-    --cor-primaria-hover: #3f4fa6af;
-    --cor-primaria-light: #333
-    --cor-segundaria: #52F2F2;
-    --cor-botoes: #F2994B;
-    --cor-botoes-hover: #f2994baf;
+  --cor-primaria: #5ef1cb;
+  --cor-primaria-hover: #5ef1cab6;
+  --cor-primaria-light: #333;
+  --cor-segundaria: #3a92b3;
+  --cor-botoes: #FF8B55;
+  --cor-botoes-hover: #FF8B55af;
 }
