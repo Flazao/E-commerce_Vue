@@ -19,8 +19,6 @@ A interface foi desenvolvida com foco na experiencia do usuario, utilizando Tail
 
 Para rodar a aplicação localmente, basta instalar as dependências com `npm install` e iniciar o servidor de desenvolvimento com `npm run dev`. Não é necessário configurar banco de dados ou autenticação, pois todo o funcionamento ocorre no lado do cliente, aproveitando recursos modernos do navegador.
 
-O projeto foi desenvolvido priorizando clareza, simplicidade e facilidade de manutenção, sendo ideal para estudos, demonstrações ou como base para projetos mais avançados de e-commerce.
-
 ## Link yt: https://youtu.be/d-a7MUkEYa4
 
 ### obs: O video foi feito sem audio por conta da falta do microfone, entao é um video mostrando somente o site.
