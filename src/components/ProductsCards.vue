@@ -7,10 +7,10 @@
                 <img v-if="product.image" :src="product.image" :alt="product.title"
                     class="mx-auto mb-2 w-30 h-30 object-cover rounded-full"></img>
                 <h2 class="text-center capitalize font-bold text-lg">{{ product.title }}</h2>
-                <p v-if="product.price" class="text-center text-sm uppercase text-gray-600"><strong
-                        class="text-black/70">R$</strong> {{ product.price }}</p>
-                <p v-if="product.category" class="text-center text-xs text-gray-500"><strong
-                        class="text-black/70">Categoria:</strong> {{ product.category }}</p>
+                <p v-if="product.price" class="text-center text-md uppercase text-gray-600"><strong
+                        class="text-black/60">R$</strong> {{ product.price }}</p>
+                <p v-if="product.category" class="text-center text-md text-gray-500"><strong
+                        class="text-black/60">Categoria:</strong> {{ product.category }}</p>
             </div>
         </div>
     </router-link>

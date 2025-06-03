@@ -1,7 +1,7 @@
 <template>
     <main class="bg-gray-100 min-h-screen">
         <h1 class="text-center font-bold text-5xl p-10">Produtos</h1>
-        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6 p-3">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 p-5 mr-5 ml-5">
             <ProductsCards v-for="p in products" :key="p.id" :product="p" />
         </div>
         <div class="flex justify-center gap-4 mt-6 mb-6">
@@ -20,7 +20,7 @@ import ProductsCards from '../components/ProductsCards.vue'
 
 const products = ref([])
 const skip = ref(0)
-const limit = ref(12)
+const limit = ref(10)
 
 const TemMais = ref(true);
 

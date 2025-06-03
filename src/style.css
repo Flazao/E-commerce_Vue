@@ -25,5 +25,5 @@
 .animated-navbar {
   background: linear-gradient(90deg, var(--cor-primaria), var(--cor-segundaria), #F4B6E1, #3A92B3);
   background-size: 200% 200%;
-  animation: gradient-move 8s ease-in-out infinite;
+  animation: gradient-move 10s ease-in-out infinite;
 }
