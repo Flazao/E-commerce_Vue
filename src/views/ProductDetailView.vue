@@ -15,12 +15,13 @@
                         class="text-black text-bold">Descrição:</strong> {{ product.description }}</p>
                 <p v-if="product.rating" class="text-center text-sm mb-10 text-black"><strong
                         class="text-black text-bold ">Avaliação:</strong> {{ product.rating }}</p>
+
             </div>
         </div>
     </div>
 </template>
 
-<script setup> 
+<script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
 import { useRoute } from 'vue-router'
@@ -32,7 +33,7 @@ const fetchProduct = async () => {
     try {
         const response = await axios.get(`https://dummyjson.com/products/${route.params.id}`);
 
-        product.value = { 
+        product.value = {
             id: response.data.id,
             title: response.data.title,
             category: response.data.category,
